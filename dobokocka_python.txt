@@ -1,0 +1,11 @@
+Feladat: Dobókocka statisztika
+
+A célunk egy olyan programot írni amely képes 2 dobókocka dobásának az eredményét kiszámítani. Ezen felül az eredményeket a program meg kéne jegyezze és statisztikát készít.
+például: A dobott összegek átlaga és hogy milyen gyakran kapjuk ezeket a számokat.
+
+Fontos megtanúlni valók:
+-A válasz összegek elraktározása
+-A pythonon belüli random függvény átismétlése
+
+Szükséges egy kis tanári magyarázat.
+A mostani tudásunk fejlesztése.
