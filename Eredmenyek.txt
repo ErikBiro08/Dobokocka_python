@@ -1,0 +1,100 @@
+Dobás 1:
+  Az első kocka eredménye: 5
+  A második kocka eredménye: 3
+  A két dobókocka dobási eredménye: 8
+
+Dobás 2:
+  Az első kocka eredménye: 2
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 4
+
+Dobás 3:
+  Az első kocka eredménye: 3
+  A második kocka eredménye: 1
+  A két dobókocka dobási eredménye: 4
+
+Dobás 4:
+  Az első kocka eredménye: 1
+  A második kocka eredménye: 3
+  A két dobókocka dobási eredménye: 4
+
+Dobás 5:
+  Az első kocka eredménye: 4
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 6
+
+Dobás 6:
+  Az első kocka eredménye: 4
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 6
+
+Dobás 7:
+  Az első kocka eredménye: 5
+  A második kocka eredménye: 4
+  A két dobókocka dobási eredménye: 9
+
+Dobás 8:
+  Az első kocka eredménye: 1
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 3
+
+Dobás 9:
+  Az első kocka eredménye: 6
+  A második kocka eredménye: 3
+  A két dobókocka dobási eredménye: 9
+
+Dobás 10:
+  Az első kocka eredménye: 3
+  A második kocka eredménye: 6
+  A két dobókocka dobási eredménye: 9
+
+Dobás 11:
+  Az első kocka eredménye: 4
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 6
+
+Dobás 12:
+  Az első kocka eredménye: 5
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 7
+
+Dobás 13:
+  Az első kocka eredménye: 3
+  A második kocka eredménye: 5
+  A két dobókocka dobási eredménye: 8
+
+Dobás 14:
+  Az első kocka eredménye: 2
+  A második kocka eredménye: 6
+  A két dobókocka dobási eredménye: 8
+
+Dobás 15:
+  Az első kocka eredménye: 6
+  A második kocka eredménye: 3
+  A két dobókocka dobási eredménye: 9
+
+Dobás 16:
+  Az első kocka eredménye: 3
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 5
+
+Dobás 17:
+  Az első kocka eredménye: 3
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 5
+
+Dobás 18:
+  Az első kocka eredménye: 5
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 7
+
+Dobás 19:
+  Az első kocka eredménye: 3
+  A második kocka eredménye: 2
+  A két dobókocka dobási eredménye: 5
+
+Dobás 20:
+  Az első kocka eredménye: 5
+  A második kocka eredménye: 1
+  A két dobókocka dobási eredménye: 6
+
