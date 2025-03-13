@@ -1,30 +1,54 @@
-import random  # Behívjuk a random függvényt
+import random
+from collections import Counter
 
+def dobas():
+    
+    return random.randint(1, 6)
 
-with open("Eredmenyek.txt", "w", encoding="UTF-8") as f:
-    print('Dobókocka projekt:')
+def kiir_eredmeny(dobk1, dobk2, eredmeny, index, f):
+    
+    print(f'Dobás {index}:')
+    print(f'  Az első kocka eredménye: {dobk1}')
+    print(f'  A második kocka eredménye: {dobk2}')
+    print(f'  A két dobókocka dobási eredménye: {eredmeny}')
+    
+    # Fájlba írás
+    f.write(f'Dobás {index}:\n')
+    f.write(f'  Az első kocka eredménye: {dobk1}\n')
+    f.write(f'  A második kocka eredménye: {dobk2}\n')
+    f.write(f'  A két dobókocka dobási eredménye: {eredmeny}\n\n')
 
-    # Ciklus, ami 20 alkalommal dob
-    for i in range(20):
-        dobk1 = random.randint(1, 6)  # Az első kocka dobásának eredménye
-        dobk2 = random.randint(1, 6)  # A második kocka dobásának eredménye
+def kiértékel(dobk1, dobk2, eredmeny):
+    
+    if dobk1 == dobk2:
+        print('Ez aztán ritka!')
+    elif eredmeny == 12:
+        print('Nagyon szerencsés vagy!')  
+    else:
+        print('Ezek csak sima dobások')
 
-        eredmeny = dobk1 + dobk2  # Az eredmény kiszámítása
-
-        # Eredmények kiírása a képernyőre
-        print('Az első kocka eredménye: ', dobk1)            
-        print('A második kocka eredménye: ', dobk2)           
-        print('A két dobókocka dobási eredménye: ', eredmeny)
-
-        # Az eredmények kiírása a fájlba
-        f.write(f'Dobás {i + 1}:\n')
-        f.write(f'  Az első kocka eredménye: {dobk1}\n')  
-        f.write(f'  A második kocka eredménye: {dobk2}\n')  
-        f.write(f'  A két dobókocka dobási eredménye: {eredmeny}\n\n')
+def main():
+    
+    eredmenyek = [] 
+    with open("Eredmenyek.txt", "w", encoding="UTF-8") as f:
+        print('Dobókocka projekt:\n')
         
-        if dobk1 == dobk2:
-            print('Ez aztán ritka!')
-        elif eredmeny == 12:
-            print('Nagyon szerencsés vagy!')
-        else:
-            print('Ezek csak sima dobások')
+        for i in range(1, 21): 
+            dobk1 = dobas()  
+            dobk2 = dobas()  
+            eredmeny = dobk1 + dobk2 
+            
+            kiir_eredmeny(dobk1, dobk2, eredmeny, i, f)  
+            kiértékel(dobk1, dobk2, eredmeny) 
+                        
+            eredmenyek.append(eredmeny)
+                   
+        atlag = sum(eredmenyek) / len(eredmenyek)        
+        f.write(f'\nStatisztikai összegzés:\n')
+        f.write(f'  Az átlagos dobás eredménye: {atlag:.2f}\n')
+        f.write(f'  A legnagyobb dobás: {max(eredmenyek)}\n')
+        f.write(f'  A legkisebb dobás: {min(eredmenyek)}\n')
+        f.write(f'  A dobások átlaga: {atlag:.2f}\n')
+
+if __name__ == "__main__":
+    main()
